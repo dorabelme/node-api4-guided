@@ -9,7 +9,7 @@ const server = require("./api/server.js");
 // const port = process.env.PORT || 4000;
 
 // v3 - stored in defaults file
-const defaults = require("./config/defaults");
+const defaults = require("./api/config/defaults");
 const port = defaults.port;
 
 server.listen(port, () => {
